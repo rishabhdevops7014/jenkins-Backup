@@ -1,0 +1,26 @@
+Started by user [8mha:////4CbazrjAHZCOkiPLFiAZSi+PAfhpNMY8ekqwreUgJOQ1AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL9rNS87My8YgDcoqjWwgAAAA==[0mRishabh jain
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/Build
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/rishabhdevops7014/Test-c-project.git
+ > git init /var/lib/jenkins/workspace/Build # timeout=10
+Fetching upstream changes from https://github.com/rishabhdevops7014/Test-c-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/rishabhdevops7014/Test-c-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/rishabhdevops7014/Test-c-project.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision ff07917b309f1162c7db75734359cd147bb88812 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ff07917b309f1162c7db75734359cd147bb88812 # timeout=10
+Commit message: "Create Hello_world"
+First time build. Skipping changelog.
+[Build] $ /bin/sh -xe /tmp/jenkins8607417930155067984.sh
++ echo this is my build stahe
+this is my build stahe
+Triggering a new build of [8mha:////4Ms8SFvWKazXANYFE/KDEVnmTeTKEPgBp3icDeHNg8y8AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JH2X1IKc/Ep9ANFMbsTBAAAA[0mDeploy
+Finished: SUCCESS

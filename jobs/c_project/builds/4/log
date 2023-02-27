@@ -1,0 +1,22 @@
+Started by user [8mha:////4CbazrjAHZCOkiPLFiAZSi+PAfhpNMY8ekqwreUgJOQ1AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL9rNS87My8YgDcoqjWwgAAAA==[0mRishabh jain
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/c_project
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/c_project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/rishabhdevops7014/c-project.git # timeout=10
+Fetching upstream changes from https://github.com/rishabhdevops7014/c-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/rishabhdevops7014/c-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 301c9f2115ef4c052ef1472822a4a35fc29683a2 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 301c9f2115ef4c052ef1472822a4a35fc29683a2 # timeout=10
+Commit message: "adding files from server to git hub"
+ > git rev-list --no-walk 301c9f2115ef4c052ef1472822a4a35fc29683a2 # timeout=10
+[c_project] $ /bin/sh -xe /tmp/jenkins16767610621928797106.sh
++ make
+make: 'ABC.exe' is up to date.
+Finished: SUCCESS
